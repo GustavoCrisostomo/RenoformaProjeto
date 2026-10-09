@@ -5,6 +5,7 @@ import Cadastro from "./page/Cadastro";
 import CadastroAdmin from "./page/CadastroAdmin";
 import LoginAdmin from "./page/LoginAdmin";
 import Login from "./page/Login";
+import EsqueceuSenha from "./page/EsqueceuSenha";
 
 function App() {
     return (
@@ -22,6 +23,9 @@ function App() {
 
                 <Route
                     path="/admincadastro"element={<CadastroAdmin />}/>
+
+                <Route
+                    path="/EsqueceuSenha"element={<EsqueceuSenha />}/>
 
             </Routes>
         </BrowserRouter>
